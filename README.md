@@ -4,4 +4,4 @@ Simple Page Ramadan Countdown for every Ramadan Date in each Islamic Calendar Ye
 
 ## check Live link
 
-- check Live link [here](https://countdown-ramdan.vercel.app/)
+- check Live link [here](https://countdown-ramadan.vercel.app/)
