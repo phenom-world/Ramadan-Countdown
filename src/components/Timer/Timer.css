@@ -1,0 +1,113 @@
+.timer {
+  background-color: #6e6a6a;
+  opacity: 0.9;
+  background-image: linear-gradient(
+      30deg,
+      #0b0a0a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #0b0a0a 87.5%,
+      #0b0a0a
+    ),
+    linear-gradient(
+      150deg,
+      #0b0a0a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #0b0a0a 87.5%,
+      #0b0a0a
+    ),
+    linear-gradient(
+      30deg,
+      #0b0a0a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #0b0a0a 87.5%,
+      #0b0a0a
+    ),
+    linear-gradient(
+      150deg,
+      #0b0a0a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #0b0a0a 87.5%,
+      #0b0a0a
+    ),
+    linear-gradient(
+      60deg,
+      #0b0a0a77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #0b0a0a77 75%,
+      #0b0a0a77
+    ),
+    linear-gradient(
+      60deg,
+      #0b0a0a77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #0b0a0a77 75%,
+      #0b0a0a77
+    );
+  background-size: 24px 42px;
+  background-position: 0 0, 0 0, 12px 21px, 12px 21px, 0 0, 12px 21px;
+  padding: 10px;
+  margin: 10px 70px;
+  font-size: 50px;
+  border-radius: 35px;
+  width: 180px;
+  text-overflow: clip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -1px 2px 41px 24px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: -1px 2px 41px 24px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: -1px 2px 41px 24px rgba(0, 0, 0, 0.75) inset;
+}
+
+.secs {
+  animation: scale 1s infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .timer {
+    padding: 10px;
+    margin: 10px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 284px) and (max-width: 366px) {
+  .timer {
+    padding: 15px;
+    margin: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .timer {
+    padding: 30px;
+    margin: 10px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 90px;
+  }
+}
